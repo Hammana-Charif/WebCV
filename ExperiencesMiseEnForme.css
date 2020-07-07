@@ -1,0 +1,139 @@
+body
+{
+	background-image: url("images/backgroundExperiences.jpg");
+	background-size: 1920px 1080px;
+	text-shadow: -6px 6px 6px #626567;
+	background-attachment: fixed;
+	color: white;
+}
+
+img
+{
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	box-shadow: -6px 6px 6px #626567;
+	padding: 1px
+}
+
+h1
+{
+	font-family: 'open_sansregular', Impact, "Arial Black", Arial, Verdana, ;
+	text-decoration: underline;
+	font-size: 5em
+}
+
+h1:hover
+{
+	color: #EDBB99;
+}
+
+h2
+{
+	color: white;
+	font-size: 2em;
+}
+
+h2:hover
+{
+	color: #EDBB99;
+}
+
+li:hover
+{
+	color: #EDBB99;
+}
+
+#conteneur
+{
+	margin: auto;
+	margin-bottom: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-center;
+
+	width: 1000px;
+	height: 700px;
+}
+
+.titre
+{
+	text-align: center;
+}
+
+.sousTitre
+{
+	text-align: center;
+}
+
+.image
+
+{
+	text-align: center;
+}
+
+.mission
+{
+	font-size: 2em;
+	text-align: center;
+}
+
+.mission:hover
+{
+	color: #EDBB99;
+}
+
+/*
+
+div
+{
+	text-align: right;
+}
+
+.mission1
+{
+	color: white;
+	text-align: left;
+	font-size: 1.5em;
+}
+
+.mission1:hover
+{
+	color: #EDBB99;
+}
+
+.mission2
+{
+	color: white;
+	font-size: 1.5em;		//Ancien affichage du texte : alternance gauche/droite.
+}							//A réutiliser si envie de changer d'affichage.
+
+.mission2:hover
+{
+	color: #EDBB99;
+}
+
+.image1
+{
+	text-align: left;
+	padding-left: 0px;
+}
+
+.image2
+{
+	padding-right: 0px;
+}
+
+*/
+
+@font-face 
+{
+    font-family: 'open_sansregular';
+    src: url('fonts/openRegular/OpenSans-Regular-webfont.eot');
+    src: url('fonts/openRegular/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/openRegular/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('fonts/openRegular/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/openRegular/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/openRegular/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
